@@ -1,0 +1,1016 @@
+{
+ "name": "Zona Sul 142 (Drill)",
+ "bpm": 142,
+ "swing": 0,
+ "key": 4,
+ "scale": "Minor",
+ "metronome": false,
+ "master": {
+  "vol": 0.85,
+  "low": 0,
+  "mid": 0,
+  "high": 0,
+  "compThr": -14
+ },
+ "loop": {
+  "on": false,
+  "start": 0,
+  "end": 8
+ },
+ "channels": [
+  {
+   "id": "ch_187_e508",
+   "name": "Kick",
+   "color": "#ff7a1a",
+   "type": "kick",
+   "dp": {
+    "f": 150,
+    "fEnd": 40,
+    "d": 0.35
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_188_1ss8",
+   "name": "Snare Tight",
+   "color": "#c9d840",
+   "type": "snare",
+   "dp": {
+    "f": 200,
+    "d": 0.16
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_189_c1dq",
+   "name": "Rimshot",
+   "color": "#e8483f",
+   "type": "rim",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_190_b0ri",
+   "name": "Hat Tick",
+   "color": "#5f8bff",
+   "type": "hatC",
+   "dp": {
+    "f": 9500,
+    "d": 0.03
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_191_dtsu",
+   "name": "Open Hat",
+   "color": "#9d7bff",
+   "type": "hatO",
+   "dp": {
+    "f": 7600,
+    "d": 0.42
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_192_ka75",
+   "name": "808 Slide",
+   "color": "#ffb020",
+   "type": "808",
+   "dp": {},
+   "sp": {
+    "glide": 0.13,
+    "drive": 0.7,
+    "decay": 0.7
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 28,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_193_cdp6",
+   "name": "Melody",
+   "color": "#e05fc0",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pluck"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 64,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0.3
+   }
+  },
+  {
+   "id": "ch_194_j25s",
+   "name": "Pad",
+   "color": "#8a929e",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pad"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 52,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_195_8i29",
+   "name": "FX Impact",
+   "color": "#4b5560",
+   "type": "impact",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "pat_196_f0q7",
+   "name": "Drill Drums",
+   "color": "#ff7a1a",
+   "bars": 2,
+   "steps": {
+    "ch_187_e508": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_188_1ss8": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null
+    ],
+    "ch_189_c1dq": [
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_190_b0ri": [
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     {
+      "v": 0.4
+     },
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     {
+      "v": 0.45
+     },
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     {
+      "v": 0.4
+     },
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     {
+      "v": 0.6
+     },
+     {
+      "v": 0.5
+     }
+    ],
+    "ch_191_dtsu": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_197_k1yb",
+   "name": "808 Slides",
+   "color": "#ffb020",
+   "bars": 2,
+   "steps": {},
+   "notes": {
+    "ch_192_ka75": [
+     {
+      "id": "n_198_emdb",
+      "s": 0,
+      "d": 4,
+      "p": 28,
+      "v": 0.9
+     },
+     {
+      "id": "n_199_dzpp",
+      "s": 4,
+      "d": 4,
+      "p": 31,
+      "v": 0.9
+     },
+     {
+      "id": "n_200_68q7",
+      "s": 8,
+      "d": 3,
+      "p": 28,
+      "v": 0.95
+     },
+     {
+      "id": "n_201_ilgm",
+      "s": 11,
+      "d": 5,
+      "p": 26,
+      "v": 0.95
+     },
+     {
+      "id": "n_202_gxkc",
+      "s": 16,
+      "d": 4,
+      "p": 28,
+      "v": 0.9
+     },
+     {
+      "id": "n_203_3ml5",
+      "s": 20,
+      "d": 4,
+      "p": 33,
+      "v": 0.9
+     },
+     {
+      "id": "n_204_j4k4",
+      "s": 24,
+      "d": 3,
+      "p": 31,
+      "v": 0.95
+     },
+     {
+      "id": "n_205_i53d",
+      "s": 27,
+      "d": 5,
+      "p": 28,
+      "v": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_206_6m2i",
+   "name": "Drill Melody",
+   "color": "#e05fc0",
+   "bars": 4,
+   "steps": {},
+   "notes": {
+    "ch_193_cdp6": [
+     {
+      "id": "n_207_elz6",
+      "s": 0,
+      "d": 2,
+      "p": 67,
+      "v": 0.75
+     },
+     {
+      "id": "n_208_cvbo",
+      "s": 3,
+      "d": 2,
+      "p": 64,
+      "v": 0.7
+     },
+     {
+      "id": "n_209_wzn",
+      "s": 6,
+      "d": 2,
+      "p": 71,
+      "v": 0.75
+     },
+     {
+      "id": "n_210_el75",
+      "s": 10,
+      "d": 3,
+      "p": 67,
+      "v": 0.7
+     },
+     {
+      "id": "n_211_br0u",
+      "s": 16,
+      "d": 2,
+      "p": 67,
+      "v": 0.75
+     },
+     {
+      "id": "n_212_twj",
+      "s": 19,
+      "d": 2,
+      "p": 64,
+      "v": 0.7
+     },
+     {
+      "id": "n_213_hhdj",
+      "s": 22,
+      "d": 4,
+      "p": 60,
+      "v": 0.8
+     },
+     {
+      "id": "n_214_119g",
+      "s": 32,
+      "d": 2,
+      "p": 67,
+      "v": 0.75
+     },
+     {
+      "id": "n_215_9yim",
+      "s": 35,
+      "d": 2,
+      "p": 64,
+      "v": 0.7
+     },
+     {
+      "id": "n_216_77j9",
+      "s": 38,
+      "d": 2,
+      "p": 71,
+      "v": 0.75
+     },
+     {
+      "id": "n_217_akh2",
+      "s": 42,
+      "d": 3,
+      "p": 72,
+      "v": 0.8
+     },
+     {
+      "id": "n_218_3xms",
+      "s": 48,
+      "d": 4,
+      "p": 71,
+      "v": 0.8
+     },
+     {
+      "id": "n_219_ame7",
+      "s": 54,
+      "d": 2,
+      "p": 67,
+      "v": 0.7
+     },
+     {
+      "id": "n_220_ddp4",
+      "s": 56,
+      "d": 8,
+      "p": 64,
+      "v": 0.85
+     }
+    ],
+    "ch_194_j25s": [
+     {
+      "id": "n_221_h3cl",
+      "s": 0,
+      "d": 16,
+      "p": 52,
+      "v": 0.35
+     },
+     {
+      "id": "n_222_ahsz",
+      "s": 16,
+      "d": 16,
+      "p": 48,
+      "v": 0.35
+     },
+     {
+      "id": "n_223_ipx9",
+      "s": 32,
+      "d": 16,
+      "p": 52,
+      "v": 0.35
+     },
+     {
+      "id": "n_224_b96l",
+      "s": 48,
+      "d": 16,
+      "p": 55,
+      "v": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_225_iikx",
+   "name": "Impact",
+   "color": "#4b5560",
+   "bars": 1,
+   "steps": {
+    "ch_195_8i29": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  }
+ ],
+ "playlist": {
+  "tracks": 8,
+  "clips": [
+   {
+    "id": "clip_226_dxa5",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 0
+   },
+   {
+    "id": "clip_227_imwc",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 4
+   },
+   {
+    "id": "clip_228_7tkr",
+    "patternId": "pat_225_iikx",
+    "track": 4,
+    "bar": 8
+   },
+   {
+    "id": "clip_229_g1yr",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 8
+   },
+   {
+    "id": "clip_230_9288",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 8
+   },
+   {
+    "id": "clip_231_cwrr",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 10
+   },
+   {
+    "id": "clip_232_ien9",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 10
+   },
+   {
+    "id": "clip_233_g5os",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 12
+   },
+   {
+    "id": "clip_234_1io6",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 12
+   },
+   {
+    "id": "clip_235_izwh",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 14
+   },
+   {
+    "id": "clip_236_9p97",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 14
+   },
+   {
+    "id": "clip_237_ebh6",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 16
+   },
+   {
+    "id": "clip_238_9bpi",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 16
+   },
+   {
+    "id": "clip_239_7jnx",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 18
+   },
+   {
+    "id": "clip_240_i8s7",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 18
+   },
+   {
+    "id": "clip_241_jqyn",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 20
+   },
+   {
+    "id": "clip_242_fhut",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 20
+   },
+   {
+    "id": "clip_243_en33",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 22
+   },
+   {
+    "id": "clip_244_ejj3",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 22
+   },
+   {
+    "id": "clip_245_29cd",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 8
+   },
+   {
+    "id": "clip_246_gffy",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 12
+   },
+   {
+    "id": "clip_247_eywu",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 16
+   },
+   {
+    "id": "clip_248_6ora",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 20
+   },
+   {
+    "id": "clip_249_2jp3",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 24
+   },
+   {
+    "id": "clip_250_fa6",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 26
+   },
+   {
+    "id": "clip_251_4paa",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 24
+   },
+   {
+    "id": "clip_252_hpvg",
+    "patternId": "pat_225_iikx",
+    "track": 4,
+    "bar": 28
+   },
+   {
+    "id": "clip_253_8zqe",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 28
+   },
+   {
+    "id": "clip_254_gldk",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 28
+   },
+   {
+    "id": "clip_255_257p",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 30
+   },
+   {
+    "id": "clip_256_jewf",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 30
+   },
+   {
+    "id": "clip_257_556m",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 32
+   },
+   {
+    "id": "clip_258_aifm",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 32
+   },
+   {
+    "id": "clip_259_8en9",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 34
+   },
+   {
+    "id": "clip_260_hvvw",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 34
+   },
+   {
+    "id": "clip_261_kcrq",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 36
+   },
+   {
+    "id": "clip_262_ldxb",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 36
+   },
+   {
+    "id": "clip_263_7vlb",
+    "patternId": "pat_196_f0q7",
+    "track": 0,
+    "bar": 38
+   },
+   {
+    "id": "clip_264_4vtp",
+    "patternId": "pat_197_k1yb",
+    "track": 2,
+    "bar": 38
+   },
+   {
+    "id": "clip_265_1l64",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 28
+   },
+   {
+    "id": "clip_266_l6wi",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 32
+   },
+   {
+    "id": "clip_267_44cd",
+    "patternId": "pat_206_6m2i",
+    "track": 3,
+    "bar": 36
+   }
+  ]
+ },
+ "markers": [
+  {
+   "bar": 0,
+   "label": "INTRO"
+  },
+  {
+   "bar": 8,
+   "label": "DROP"
+  },
+  {
+   "bar": 24,
+   "label": "BREAK"
+  },
+  {
+   "bar": 28,
+   "label": "DROP 2"
+  },
+  {
+   "bar": 40,
+   "label": "OUT"
+  }
+ ]
+}

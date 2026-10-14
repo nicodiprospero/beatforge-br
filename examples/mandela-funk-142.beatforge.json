@@ -1,0 +1,1420 @@
+{
+ "name": "Mandela 142 (Funk BR)",
+ "bpm": 142,
+ "swing": 8,
+ "key": 7,
+ "scale": "Phrygian",
+ "metronome": false,
+ "master": {
+  "vol": 0.85,
+  "low": 0,
+  "mid": 0,
+  "high": 0,
+  "compThr": -14
+ },
+ "loop": {
+  "on": false,
+  "start": 16,
+  "end": 24
+ },
+ "channels": [
+  {
+   "id": "ch_1_akna",
+   "name": "Kick Baile",
+   "color": "#ff7a1a",
+   "type": "kickBaile",
+   "dp": {
+    "f": 118,
+    "d": 0.3
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_2_a0j7",
+   "name": "Clap Baile",
+   "color": "#e8483f",
+   "type": "clap",
+   "dp": {
+    "f": 1450,
+    "d": 0.3
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_3_3d1k",
+   "name": "Tamborzão Hi",
+   "color": "#38c98c",
+   "type": "tomHi",
+   "dp": {
+    "f": 340,
+    "d": 0.15
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_4_j541",
+   "name": "Tamborzão Lo",
+   "color": "#2fb9d8",
+   "type": "tomLo",
+   "dp": {
+    "f": 165,
+    "d": 0.24
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_5_evq1",
+   "name": "Hat Closed",
+   "color": "#5f8bff",
+   "type": "hatC",
+   "dp": {
+    "f": 8200,
+    "d": 0.055
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_6_8vmf",
+   "name": "Shaker",
+   "color": "#9d7bff",
+   "type": "shaker",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_7_core",
+   "name": "808",
+   "color": "#ffb020",
+   "type": "808",
+   "dp": {},
+   "sp": {
+    "glide": 0.08,
+    "drive": 0.5,
+    "decay": 0.6
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 31,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_8_l728",
+   "name": "Lead Pluck",
+   "color": "#e05fc0",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pluck"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 67,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_9_cs4w",
+   "name": "Pad",
+   "color": "#8a929e",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pad"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 55,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_10_azs2",
+   "name": "FX Riser",
+   "color": "#666e78",
+   "type": "riser",
+   "dp": {
+    "d": 1.8
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_11_6un8",
+   "name": "FX Impact",
+   "color": "#4b5560",
+   "type": "impact",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "pat_12_av47",
+   "name": "Tamborzão",
+   "color": "#ff7a1a",
+   "bars": 2,
+   "steps": {
+    "ch_1_akna": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_2_a0j7": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null
+    ],
+    "ch_4_j541": [
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null
+    ],
+    "ch_3_3d1k": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null
+    ],
+    "ch_5_evq1": [
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     }
+    ],
+    "ch_6_8vmf": [
+     null,
+     {
+      "v": 0.35
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.4
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.35
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.4
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_13_fycc",
+   "name": "Break (no kick)",
+   "color": "#c9d840",
+   "bars": 2,
+   "steps": {
+    "ch_2_a0j7": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null
+    ],
+    "ch_4_j541": [
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null
+    ],
+    "ch_3_3d1k": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null
+    ],
+    "ch_5_evq1": [
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     }
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_14_4an6",
+   "name": "808 Groove",
+   "color": "#ffb020",
+   "bars": 2,
+   "steps": {},
+   "notes": {
+    "ch_7_core": [
+     {
+      "id": "n_15_33aq",
+      "s": 0,
+      "d": 3,
+      "p": 31,
+      "v": 0.9
+     },
+     {
+      "id": "n_16_cjnd",
+      "s": 6,
+      "d": 3,
+      "p": 31,
+      "v": 0.9
+     },
+     {
+      "id": "n_17_8pf7",
+      "s": 10,
+      "d": 4,
+      "p": 34,
+      "v": 0.95
+     },
+     {
+      "id": "n_18_gr3v",
+      "s": 14,
+      "d": 2,
+      "p": 31,
+      "v": 0.9
+     },
+     {
+      "id": "n_19_ldjq",
+      "s": 16,
+      "d": 3,
+      "p": 31,
+      "v": 0.9
+     },
+     {
+      "id": "n_20_93al",
+      "s": 22,
+      "d": 3,
+      "p": 29,
+      "v": 0.95
+     },
+     {
+      "id": "n_21_3m08",
+      "s": 26,
+      "d": 4,
+      "p": 38,
+      "v": 0.95
+     },
+     {
+      "id": "n_22_i22s",
+      "s": 30,
+      "d": 2,
+      "p": 31,
+      "v": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_23_40i4",
+   "name": "Melodia",
+   "color": "#e05fc0",
+   "bars": 4,
+   "steps": {},
+   "notes": {
+    "ch_8_l728": [
+     {
+      "id": "n_24_59y7",
+      "s": 0,
+      "d": 2,
+      "p": 74,
+      "v": 0.85
+     },
+     {
+      "id": "n_25_ayv7",
+      "s": 2,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_26_fwjb",
+      "s": 4,
+      "d": 3,
+      "p": 67,
+      "v": 0.85
+     },
+     {
+      "id": "n_27_bug7",
+      "s": 8,
+      "d": 2,
+      "p": 68,
+      "v": 0.8
+     },
+     {
+      "id": "n_28_fjrn",
+      "s": 10,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_29_34gf",
+      "s": 12,
+      "d": 3,
+      "p": 67,
+      "v": 0.85
+     },
+     {
+      "id": "n_30_7acu",
+      "s": 16,
+      "d": 2,
+      "p": 74,
+      "v": 0.85
+     },
+     {
+      "id": "n_31_3w1m",
+      "s": 18,
+      "d": 2,
+      "p": 75,
+      "v": 0.8
+     },
+     {
+      "id": "n_32_9k73",
+      "s": 20,
+      "d": 4,
+      "p": 74,
+      "v": 0.9
+     },
+     {
+      "id": "n_33_z21",
+      "s": 26,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_34_7rbg",
+      "s": 28,
+      "d": 4,
+      "p": 68,
+      "v": 0.85
+     },
+     {
+      "id": "n_35_ldpb",
+      "s": 32,
+      "d": 2,
+      "p": 74,
+      "v": 0.85
+     },
+     {
+      "id": "n_36_bhej",
+      "s": 34,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_37_8288",
+      "s": 36,
+      "d": 3,
+      "p": 67,
+      "v": 0.85
+     },
+     {
+      "id": "n_38_1k4",
+      "s": 40,
+      "d": 2,
+      "p": 68,
+      "v": 0.8
+     },
+     {
+      "id": "n_39_7dta",
+      "s": 42,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_40_4bk5",
+      "s": 44,
+      "d": 4,
+      "p": 67,
+      "v": 0.9
+     },
+     {
+      "id": "n_41_4687",
+      "s": 48,
+      "d": 4,
+      "p": 74,
+      "v": 0.85
+     },
+     {
+      "id": "n_42_k7b0",
+      "s": 52,
+      "d": 4,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_43_5fwe",
+      "s": 56,
+      "d": 8,
+      "p": 67,
+      "v": 0.9
+     }
+    ],
+    "ch_9_cs4w": [
+     {
+      "id": "n_44_7boz",
+      "s": 0,
+      "d": 16,
+      "p": 55,
+      "v": 0.45
+     },
+     {
+      "id": "n_45_klz5",
+      "s": 16,
+      "d": 16,
+      "p": 58,
+      "v": 0.45
+     },
+     {
+      "id": "n_46_6zah",
+      "s": 32,
+      "d": 16,
+      "p": 55,
+      "v": 0.45
+     },
+     {
+      "id": "n_47_4k9i",
+      "s": 48,
+      "d": 16,
+      "p": 50,
+      "v": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_48_eotj",
+   "name": "Riser",
+   "color": "#666e78",
+   "bars": 2,
+   "steps": {
+    "ch_10_azs2": [
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_49_if5u",
+   "name": "Impact",
+   "color": "#4b5560",
+   "bars": 1,
+   "steps": {
+    "ch_11_6un8": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  }
+ ],
+ "playlist": {
+  "tracks": 8,
+  "clips": [
+   {
+    "id": "clip_50_6el9",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 0
+   },
+   {
+    "id": "clip_51_bym",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 4
+   },
+   {
+    "id": "clip_52_3k7w",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 8
+   },
+   {
+    "id": "clip_53_c53o",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 8
+   },
+   {
+    "id": "clip_54_fmvc",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 10
+   },
+   {
+    "id": "clip_55_4gxw",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 10
+   },
+   {
+    "id": "clip_56_c0ep",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 12
+   },
+   {
+    "id": "clip_57_aia3",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 12
+   },
+   {
+    "id": "clip_58_970g",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 14
+   },
+   {
+    "id": "clip_59_48oe",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 14
+   },
+   {
+    "id": "clip_60_69dg",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 8
+   },
+   {
+    "id": "clip_61_hq6v",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 12
+   },
+   {
+    "id": "clip_62_gc69",
+    "patternId": "pat_48_eotj",
+    "track": 4,
+    "bar": 14
+   },
+   {
+    "id": "clip_63_bu7n",
+    "patternId": "pat_49_if5u",
+    "track": 4,
+    "bar": 16
+   },
+   {
+    "id": "clip_64_6lr5",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 16
+   },
+   {
+    "id": "clip_65_go3z",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 16
+   },
+   {
+    "id": "clip_66_k4qg",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 18
+   },
+   {
+    "id": "clip_67_dc94",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 18
+   },
+   {
+    "id": "clip_68_cgi4",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 20
+   },
+   {
+    "id": "clip_69_1av5",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 20
+   },
+   {
+    "id": "clip_70_btxz",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 22
+   },
+   {
+    "id": "clip_71_fwyn",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 22
+   },
+   {
+    "id": "clip_72_7prx",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 24
+   },
+   {
+    "id": "clip_73_f7u7",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 24
+   },
+   {
+    "id": "clip_74_d690",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 26
+   },
+   {
+    "id": "clip_75_ghi1",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 26
+   },
+   {
+    "id": "clip_76_eqc3",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 28
+   },
+   {
+    "id": "clip_77_amln",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 28
+   },
+   {
+    "id": "clip_78_2frc",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 30
+   },
+   {
+    "id": "clip_79_6fxg",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 30
+   },
+   {
+    "id": "clip_80_ldoh",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 16
+   },
+   {
+    "id": "clip_81_4bax",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 20
+   },
+   {
+    "id": "clip_82_faql",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 24
+   },
+   {
+    "id": "clip_83_l7g2",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 28
+   },
+   {
+    "id": "clip_84_3o1s",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 32
+   },
+   {
+    "id": "clip_85_2mag",
+    "patternId": "pat_13_fycc",
+    "track": 1,
+    "bar": 34
+   },
+   {
+    "id": "clip_86_j42z",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 32
+   },
+   {
+    "id": "clip_87_jbnc",
+    "patternId": "pat_48_eotj",
+    "track": 4,
+    "bar": 34
+   },
+   {
+    "id": "clip_88_1aax",
+    "patternId": "pat_49_if5u",
+    "track": 4,
+    "bar": 36
+   },
+   {
+    "id": "clip_89_8m5t",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 36
+   },
+   {
+    "id": "clip_90_4fdr",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 36
+   },
+   {
+    "id": "clip_91_bs4o",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 38
+   },
+   {
+    "id": "clip_92_15kx",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 38
+   },
+   {
+    "id": "clip_93_9suv",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 40
+   },
+   {
+    "id": "clip_94_l75w",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 40
+   },
+   {
+    "id": "clip_95_ay1g",
+    "patternId": "pat_12_av47",
+    "track": 0,
+    "bar": 42
+   },
+   {
+    "id": "clip_96_k9fe",
+    "patternId": "pat_14_4an6",
+    "track": 2,
+    "bar": 42
+   },
+   {
+    "id": "clip_97_fwm7",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 36
+   },
+   {
+    "id": "clip_98_dj4r",
+    "patternId": "pat_23_40i4",
+    "track": 3,
+    "bar": 40
+   }
+  ]
+ },
+ "markers": [
+  {
+   "bar": 0,
+   "label": "INTRO"
+  },
+  {
+   "bar": 8,
+   "label": "BUILD"
+  },
+  {
+   "bar": 16,
+   "label": "DROP"
+  },
+  {
+   "bar": 32,
+   "label": "BREAK"
+  },
+  {
+   "bar": 36,
+   "label": "DROP 2"
+  },
+  {
+   "bar": 44,
+   "label": "OUT"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "beatforge-br",
+  "productName": "BeatForge BR",
+  "version": "1.0.0",
+  "description": "Browser DAW for Trap / Funk BR / Drill — real Web Audio engine",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . \"BeatForge BR\" --platform=win32 --arch=x64 --overwrite --out=dist --icon=icon.ico",
+    "build:linux": "electron-packager . \"BeatForge BR\" --platform=linux --arch=x64 --overwrite --out=dist",
+    "build:mac": "electron-packager . \"BeatForge BR\" --platform=darwin --arch=x64 --overwrite --out=dist"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}

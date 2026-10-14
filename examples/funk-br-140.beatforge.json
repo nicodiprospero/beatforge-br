@@ -1,0 +1,1439 @@
+{
+ "name": "Funk BR 140",
+ "bpm": 140,
+ "swing": 0,
+ "key": 7,
+ "scale": "Phrygian",
+ "metronome": false,
+ "master": {
+  "vol": 0.85,
+  "low": 0,
+  "mid": 0,
+  "high": 0,
+  "compThr": -14
+ },
+ "loop": {
+  "on": false,
+  "start": 16,
+  "end": 24
+ },
+ "channels": [
+  {
+   "id": "ch_1_3gbg",
+   "name": "Kick Baile",
+   "color": "#ff7a1a",
+   "type": "kickBaile",
+   "dp": {
+    "f": 118,
+    "d": 0.3
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_2_ef8z",
+   "name": "Clap",
+   "color": "#e8483f",
+   "type": "clap",
+   "dp": {
+    "f": 1450,
+    "d": 0.24
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_3_3241",
+   "name": "Snare",
+   "color": "#c9d840",
+   "type": "snare",
+   "dp": {
+    "f": 195,
+    "d": 0.18
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_4_3hoj",
+   "name": "Tamborzão Hi",
+   "color": "#38c98c",
+   "type": "tomHi",
+   "dp": {
+    "f": 340,
+    "d": 0.15
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_5_c6y4",
+   "name": "Tamborzão Lo",
+   "color": "#2fb9d8",
+   "type": "tomLo",
+   "dp": {
+    "f": 165,
+    "d": 0.24
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_6_6gv1",
+   "name": "Hat",
+   "color": "#5f8bff",
+   "type": "hatC",
+   "dp": {
+    "f": 8200,
+    "d": 0.055
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_7_56n2",
+   "name": "Open Hat",
+   "color": "#9d7bff",
+   "type": "hatO",
+   "dp": {
+    "f": 7600,
+    "d": 0.4
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_8_k3kq",
+   "name": "808",
+   "color": "#ffb020",
+   "type": "808",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 31,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_9_auje",
+   "name": "Lead Pluck",
+   "color": "#e05fc0",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pluck"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 67,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_10_7j0f",
+   "name": "Pad",
+   "color": "#8a929e",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pad"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 55,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_11_f8g2",
+   "name": "FX Riser",
+   "color": "#666e78",
+   "type": "riser",
+   "dp": {
+    "d": 1.8
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_12_63vt",
+   "name": "FX Impact",
+   "color": "#4b5560",
+   "type": "impact",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "pat_13_dtpc",
+   "name": "Drums",
+   "color": "#ff7a1a",
+   "bars": 2,
+   "steps": {
+    "ch_1_3gbg": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_2_ef8z": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null
+    ],
+    "ch_5_c6y4": [
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null
+    ],
+    "ch_4_3hoj": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null
+    ],
+    "ch_6_6gv1": [
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     }
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_14_1pza",
+   "name": "Drums Break",
+   "color": "#c9d840",
+   "bars": 2,
+   "steps": {
+    "ch_1_3gbg": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_2_ef8z": [
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null
+    ],
+    "ch_5_c6y4": [
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null
+    ],
+    "ch_4_3hoj": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.8
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.75
+     },
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null
+    ],
+    "ch_6_6gv1": [
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.5
+     },
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.5
+     }
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_15_32xh",
+   "name": "808",
+   "color": "#ffb020",
+   "bars": 2,
+   "steps": {},
+   "notes": {
+    "ch_8_k3kq": [
+     {
+      "id": "n_16_i05b",
+      "s": 0,
+      "d": 6,
+      "p": 31,
+      "v": 0.95
+     },
+     {
+      "id": "n_17_goi6",
+      "s": 6,
+      "d": 4,
+      "p": 29,
+      "v": 0.95
+     },
+     {
+      "id": "n_18_5tzs",
+      "s": 10,
+      "d": 6,
+      "p": 38,
+      "v": 0.95
+     },
+     {
+      "id": "n_19_ae2u",
+      "s": 16,
+      "d": 6,
+      "p": 31,
+      "v": 0.95
+     },
+     {
+      "id": "n_20_1eyp",
+      "s": 22,
+      "d": 4,
+      "p": 29,
+      "v": 0.95
+     },
+     {
+      "id": "n_21_jn06",
+      "s": 26,
+      "d": 6,
+      "p": 38,
+      "v": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_22_dpt6",
+   "name": "Melody",
+   "color": "#e05fc0",
+   "bars": 4,
+   "steps": {},
+   "notes": {
+    "ch_9_auje": [
+     {
+      "id": "n_23_kwa7",
+      "s": 0,
+      "d": 2,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_24_eaoy",
+      "s": 2,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_25_bzo0",
+      "s": 4,
+      "d": 2,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_26_10z6",
+      "s": 8,
+      "d": 2,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_27_522m",
+      "s": 10,
+      "d": 2,
+      "p": 75,
+      "v": 0.8
+     },
+     {
+      "id": "n_28_812e",
+      "s": 12,
+      "d": 3,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_29_kuk0",
+      "s": 16,
+      "d": 2,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_30_k1xf",
+      "s": 18,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_31_ffld",
+      "s": 20,
+      "d": 2,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_32_4esr",
+      "s": 24,
+      "d": 2,
+      "p": 68,
+      "v": 0.8
+     },
+     {
+      "id": "n_33_7his",
+      "s": 26,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_34_gs8n",
+      "s": 28,
+      "d": 4,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_35_1gvm",
+      "s": 32,
+      "d": 2,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_36_70wp",
+      "s": 34,
+      "d": 2,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_37_k4lv",
+      "s": 36,
+      "d": 2,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_38_lf60",
+      "s": 40,
+      "d": 2,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_39_5t2m",
+      "s": 42,
+      "d": 2,
+      "p": 75,
+      "v": 0.8
+     },
+     {
+      "id": "n_40_j65n",
+      "s": 44,
+      "d": 3,
+      "p": 77,
+      "v": 0.8
+     },
+     {
+      "id": "n_41_3eyp",
+      "s": 48,
+      "d": 4,
+      "p": 74,
+      "v": 0.8
+     },
+     {
+      "id": "n_42_ebcn",
+      "s": 52,
+      "d": 4,
+      "p": 70,
+      "v": 0.8
+     },
+     {
+      "id": "n_43_e68p",
+      "s": 56,
+      "d": 8,
+      "p": 67,
+      "v": 0.8
+     }
+    ],
+    "ch_10_7j0f": [
+     {
+      "id": "n_44_ccn8",
+      "s": 0,
+      "d": 16,
+      "p": 55,
+      "v": 0.5
+     },
+     {
+      "id": "n_45_jni2",
+      "s": 16,
+      "d": 16,
+      "p": 58,
+      "v": 0.5
+     },
+     {
+      "id": "n_46_ixl9",
+      "s": 32,
+      "d": 16,
+      "p": 55,
+      "v": 0.5
+     },
+     {
+      "id": "n_47_jdrl",
+      "s": 48,
+      "d": 16,
+      "p": 50,
+      "v": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_48_i125",
+   "name": "FX",
+   "color": "#666e78",
+   "bars": 2,
+   "steps": {
+    "ch_11_f8g2": [
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_49_ix4l",
+   "name": "Impact",
+   "color": "#4b5560",
+   "bars": 1,
+   "steps": {
+    "ch_12_63vt": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  }
+ ],
+ "playlist": {
+  "tracks": 8,
+  "clips": [
+   {
+    "id": "clip_50_7uh9",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 0
+   },
+   {
+    "id": "clip_51_8i7z",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 4
+   },
+   {
+    "id": "clip_52_b0pj",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 8
+   },
+   {
+    "id": "clip_53_lca7",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 8
+   },
+   {
+    "id": "clip_54_4ptn",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 10
+   },
+   {
+    "id": "clip_55_aclg",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 10
+   },
+   {
+    "id": "clip_56_gqhr",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 12
+   },
+   {
+    "id": "clip_57_5wgf",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 12
+   },
+   {
+    "id": "clip_58_bnzd",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 14
+   },
+   {
+    "id": "clip_59_6sb",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 14
+   },
+   {
+    "id": "clip_60_9sxf",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 8
+   },
+   {
+    "id": "clip_61_jlds",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 12
+   },
+   {
+    "id": "clip_62_ip7",
+    "patternId": "pat_48_i125",
+    "track": 4,
+    "bar": 14
+   },
+   {
+    "id": "clip_63_58ub",
+    "patternId": "pat_49_ix4l",
+    "track": 4,
+    "bar": 16
+   },
+   {
+    "id": "clip_64_imk1",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 16
+   },
+   {
+    "id": "clip_65_ek7p",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 16
+   },
+   {
+    "id": "clip_66_f46n",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 18
+   },
+   {
+    "id": "clip_67_hja0",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 18
+   },
+   {
+    "id": "clip_68_a3bx",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 20
+   },
+   {
+    "id": "clip_69_b7ho",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 20
+   },
+   {
+    "id": "clip_70_3v1j",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 22
+   },
+   {
+    "id": "clip_71_f43v",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 22
+   },
+   {
+    "id": "clip_72_21k7",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 24
+   },
+   {
+    "id": "clip_73_17x5",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 24
+   },
+   {
+    "id": "clip_74_aj2",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 26
+   },
+   {
+    "id": "clip_75_zv",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 26
+   },
+   {
+    "id": "clip_76_gphj",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 28
+   },
+   {
+    "id": "clip_77_88iu",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 28
+   },
+   {
+    "id": "clip_78_dc5n",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 30
+   },
+   {
+    "id": "clip_79_bnr1",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 30
+   },
+   {
+    "id": "clip_80_fd3c",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 16
+   },
+   {
+    "id": "clip_81_j9v2",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 20
+   },
+   {
+    "id": "clip_82_gb1k",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 24
+   },
+   {
+    "id": "clip_83_hvp1",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 28
+   },
+   {
+    "id": "clip_84_d6i6",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 32
+   },
+   {
+    "id": "clip_85_ab4o",
+    "patternId": "pat_14_1pza",
+    "track": 1,
+    "bar": 34
+   },
+   {
+    "id": "clip_86_1fjg",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 32
+   },
+   {
+    "id": "clip_87_8by9",
+    "patternId": "pat_48_i125",
+    "track": 4,
+    "bar": 34
+   },
+   {
+    "id": "clip_88_9yp9",
+    "patternId": "pat_49_ix4l",
+    "track": 4,
+    "bar": 36
+   },
+   {
+    "id": "clip_89_ilmi",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 36
+   },
+   {
+    "id": "clip_90_4dk3",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 36
+   },
+   {
+    "id": "clip_91_hkc1",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 38
+   },
+   {
+    "id": "clip_92_b07t",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 38
+   },
+   {
+    "id": "clip_93_929a",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 40
+   },
+   {
+    "id": "clip_94_220t",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 40
+   },
+   {
+    "id": "clip_95_ff4k",
+    "patternId": "pat_13_dtpc",
+    "track": 0,
+    "bar": 42
+   },
+   {
+    "id": "clip_96_75gj",
+    "patternId": "pat_15_32xh",
+    "track": 2,
+    "bar": 42
+   },
+   {
+    "id": "clip_97_gyoi",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 36
+   },
+   {
+    "id": "clip_98_dmts",
+    "patternId": "pat_22_dpt6",
+    "track": 3,
+    "bar": 40
+   }
+  ]
+ },
+ "markers": [
+  {
+   "bar": 0,
+   "label": "INTRO"
+  },
+  {
+   "bar": 8,
+   "label": "BUILD"
+  },
+  {
+   "bar": 16,
+   "label": "DROP"
+  },
+  {
+   "bar": 32,
+   "label": "BREAK"
+  },
+  {
+   "bar": 36,
+   "label": "DROP 2"
+  },
+  {
+   "bar": 44,
+   "label": "OUT"
+  },
+  {
+   "bar": 0,
+   "label": "MARK"
+  }
+ ]
+}

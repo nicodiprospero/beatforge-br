@@ -1,0 +1,1265 @@
+{
+ "name": "Sombra 145 (Dark Trap)",
+ "bpm": 145,
+ "swing": 0,
+ "key": 2,
+ "scale": "Harmonic Minor",
+ "metronome": false,
+ "master": {
+  "vol": 0.85,
+  "low": 0,
+  "mid": 0,
+  "high": 0,
+  "compThr": -14
+ },
+ "loop": {
+  "on": false,
+  "start": 0,
+  "end": 8
+ },
+ "channels": [
+  {
+   "id": "ch_99_2tg4",
+   "name": "Kick",
+   "color": "#ff7a1a",
+   "type": "kick",
+   "dp": {
+    "f": 165,
+    "fEnd": 42,
+    "d": 0.4
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_100_ebmv",
+   "name": "Snare Fat",
+   "color": "#c9d840",
+   "type": "snare",
+   "dp": {
+    "f": 175,
+    "d": 0.26
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_101_cgg8",
+   "name": "Clap Trap",
+   "color": "#e8483f",
+   "type": "clap",
+   "dp": {
+    "f": 1150,
+    "d": 0.22
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_102_22rj",
+   "name": "Hat Closed",
+   "color": "#5f8bff",
+   "type": "hatC",
+   "dp": {
+    "f": 8200,
+    "d": 0.055
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_103_ddvf",
+   "name": "Open Hat",
+   "color": "#9d7bff",
+   "type": "hatO",
+   "dp": {
+    "f": 7600,
+    "d": 0.42
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_104_ji45",
+   "name": "Perc Blip",
+   "color": "#38c98c",
+   "type": "perc",
+   "dp": {
+    "f": 540
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_105_d0i7",
+   "name": "808",
+   "color": "#ffb020",
+   "type": "808",
+   "dp": {},
+   "sp": {
+    "glide": 0.07,
+    "drive": 0.55,
+    "decay": 0.65
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 26,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_106_l16f",
+   "name": "Melody",
+   "color": "#e05fc0",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "supersaw"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 62,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0.28,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_107_e58t",
+   "name": "Pad",
+   "color": "#8a929e",
+   "type": "synth",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5,
+    "osc": "pad"
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 50,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0.35
+   }
+  },
+  {
+   "id": "ch_108_6x82",
+   "name": "FX Riser",
+   "color": "#666e78",
+   "type": "riser",
+   "dp": {
+    "d": 1.8
+   },
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  },
+  {
+   "id": "ch_109_2mxk",
+   "name": "FX Impact",
+   "color": "#4b5560",
+   "type": "impact",
+   "dp": {},
+   "sp": {
+    "glide": 0.06,
+    "drive": 0.4,
+    "decay": 0.5
+   },
+   "vol": 0.8,
+   "pan": 0,
+   "mute": false,
+   "solo": false,
+   "root": 48,
+   "fx": {
+    "drive": 0,
+    "cutoff": 18000,
+    "res": 0.7,
+    "delay": 0,
+    "reverb": 0
+   }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "pat_110_4n0j",
+   "name": "Drums",
+   "color": "#ff7a1a",
+   "bars": 2,
+   "steps": {
+    "ch_99_2tg4": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.95
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     null
+    ],
+    "ch_100_ebmv": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_101_cgg8": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_102_22rj": [
+     {
+      "v": 0.85
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     {
+      "v": 0.45
+     },
+     {
+      "v": 0.6
+     },
+     {
+      "v": 0.75
+     },
+     {
+      "v": 0.85
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.85
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     {
+      "v": 0.55
+     },
+     {
+      "v": 0.5
+     },
+     {
+      "v": 0.65
+     },
+     {
+      "v": 0.8
+     }
+    ],
+    "ch_103_ddvf": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.6
+     },
+     null
+    ],
+    "ch_104_ji45": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_111_4zaj",
+   "name": "Break",
+   "color": "#c9d840",
+   "bars": 2,
+   "steps": {
+    "ch_100_ebmv": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "ch_102_22rj": [
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.7
+     },
+     null,
+     null,
+     null,
+     {
+      "v": 0.55
+     },
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_112_iaq0",
+   "name": "808 Dark",
+   "color": "#ffb020",
+   "bars": 2,
+   "steps": {},
+   "notes": {
+    "ch_105_d0i7": [
+     {
+      "id": "n_113_dj0x",
+      "s": 0,
+      "d": 6,
+      "p": 26,
+      "v": 0.9
+     },
+     {
+      "id": "n_114_bpua",
+      "s": 10,
+      "d": 4,
+      "p": 26,
+      "v": 0.9
+     },
+     {
+      "id": "n_115_d7za",
+      "s": 16,
+      "d": 4,
+      "p": 34,
+      "v": 0.95
+     },
+     {
+      "id": "n_116_8bn7",
+      "s": 22,
+      "d": 3,
+      "p": 33,
+      "v": 0.9
+     },
+     {
+      "id": "n_117_gqe",
+      "s": 26,
+      "d": 6,
+      "p": 26,
+      "v": 0.95
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_118_532h",
+   "name": "Dark Melody",
+   "color": "#e05fc0",
+   "bars": 4,
+   "steps": {},
+   "notes": {
+    "ch_106_l16f": [
+     {
+      "id": "n_119_bt44",
+      "s": 0,
+      "d": 3,
+      "p": 62,
+      "v": 0.8
+     },
+     {
+      "id": "n_120_kcxo",
+      "s": 4,
+      "d": 3,
+      "p": 65,
+      "v": 0.75
+     },
+     {
+      "id": "n_121_fz1h",
+      "s": 8,
+      "d": 3,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_122_cecr",
+      "s": 12,
+      "d": 3,
+      "p": 65,
+      "v": 0.75
+     },
+     {
+      "id": "n_123_dchc",
+      "s": 16,
+      "d": 3,
+      "p": 62,
+      "v": 0.8
+     },
+     {
+      "id": "n_124_51dx",
+      "s": 20,
+      "d": 3,
+      "p": 61,
+      "v": 0.85
+     },
+     {
+      "id": "n_125_e91m",
+      "s": 24,
+      "d": 6,
+      "p": 64,
+      "v": 0.8
+     },
+     {
+      "id": "n_126_ffcf",
+      "s": 32,
+      "d": 3,
+      "p": 62,
+      "v": 0.8
+     },
+     {
+      "id": "n_127_7egb",
+      "s": 36,
+      "d": 3,
+      "p": 65,
+      "v": 0.75
+     },
+     {
+      "id": "n_128_buks",
+      "s": 40,
+      "d": 3,
+      "p": 69,
+      "v": 0.85
+     },
+     {
+      "id": "n_129_lc7t",
+      "s": 44,
+      "d": 3,
+      "p": 67,
+      "v": 0.8
+     },
+     {
+      "id": "n_130_gbob",
+      "s": 48,
+      "d": 6,
+      "p": 65,
+      "v": 0.85
+     },
+     {
+      "id": "n_131_4v04",
+      "s": 56,
+      "d": 8,
+      "p": 62,
+      "v": 0.9
+     }
+    ],
+    "ch_107_e58t": [
+     {
+      "id": "n_132_ez4v",
+      "s": 0,
+      "d": 16,
+      "p": 50,
+      "v": 0.4
+     },
+     {
+      "id": "n_133_km6m",
+      "s": 16,
+      "d": 16,
+      "p": 46,
+      "v": 0.4
+     },
+     {
+      "id": "n_134_b1ao",
+      "s": 32,
+      "d": 16,
+      "p": 50,
+      "v": 0.4
+     },
+     {
+      "id": "n_135_2uhd",
+      "s": 48,
+      "d": 16,
+      "p": 55,
+      "v": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "pat_136_lc8v",
+   "name": "Riser",
+   "color": "#666e78",
+   "bars": 2,
+   "steps": {
+    "ch_108_6x82": [
+     {
+      "v": 0.9
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  },
+  {
+   "id": "pat_137_3qzy",
+   "name": "Impact",
+   "color": "#4b5560",
+   "bars": 1,
+   "steps": {
+    "ch_109_2mxk": [
+     {
+      "v": 1
+     },
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "notes": {}
+  }
+ ],
+ "playlist": {
+  "tracks": 8,
+  "clips": [
+   {
+    "id": "clip_138_lxj",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 0
+   },
+   {
+    "id": "clip_139_iii7",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 4
+   },
+   {
+    "id": "clip_140_gcvd",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 8
+   },
+   {
+    "id": "clip_141_egf2",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 8
+   },
+   {
+    "id": "clip_142_gb7",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 10
+   },
+   {
+    "id": "clip_143_6es7",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 10
+   },
+   {
+    "id": "clip_144_56iz",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 12
+   },
+   {
+    "id": "clip_145_9yy8",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 12
+   },
+   {
+    "id": "clip_146_9j6e",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 14
+   },
+   {
+    "id": "clip_147_b7r6",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 14
+   },
+   {
+    "id": "clip_148_ggjh",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 8
+   },
+   {
+    "id": "clip_149_4xav",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 12
+   },
+   {
+    "id": "clip_150_auve",
+    "patternId": "pat_136_lc8v",
+    "track": 4,
+    "bar": 14
+   },
+   {
+    "id": "clip_151_hqsn",
+    "patternId": "pat_137_3qzy",
+    "track": 4,
+    "bar": 16
+   },
+   {
+    "id": "clip_152_cp9f",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 16
+   },
+   {
+    "id": "clip_153_83s7",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 16
+   },
+   {
+    "id": "clip_154_ke19",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 18
+   },
+   {
+    "id": "clip_155_laei",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 18
+   },
+   {
+    "id": "clip_156_ei3w",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 20
+   },
+   {
+    "id": "clip_157_8ave",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 20
+   },
+   {
+    "id": "clip_158_99xl",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 22
+   },
+   {
+    "id": "clip_159_32qk",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 22
+   },
+   {
+    "id": "clip_160_hl9k",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 24
+   },
+   {
+    "id": "clip_161_jtys",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 24
+   },
+   {
+    "id": "clip_162_jpkw",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 26
+   },
+   {
+    "id": "clip_163_20gp",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 26
+   },
+   {
+    "id": "clip_164_bucq",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 28
+   },
+   {
+    "id": "clip_165_cpjw",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 28
+   },
+   {
+    "id": "clip_166_971w",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 30
+   },
+   {
+    "id": "clip_167_ewka",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 30
+   },
+   {
+    "id": "clip_168_c2k3",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 16
+   },
+   {
+    "id": "clip_169_hvt4",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 20
+   },
+   {
+    "id": "clip_170_7igf",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 24
+   },
+   {
+    "id": "clip_171_1fx0",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 28
+   },
+   {
+    "id": "clip_172_cq5c",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 32
+   },
+   {
+    "id": "clip_173_kke1",
+    "patternId": "pat_111_4zaj",
+    "track": 1,
+    "bar": 34
+   },
+   {
+    "id": "clip_174_3dm0",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 32
+   },
+   {
+    "id": "clip_175_dkm",
+    "patternId": "pat_136_lc8v",
+    "track": 4,
+    "bar": 34
+   },
+   {
+    "id": "clip_176_asmp",
+    "patternId": "pat_137_3qzy",
+    "track": 4,
+    "bar": 36
+   },
+   {
+    "id": "clip_177_jvms",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 36
+   },
+   {
+    "id": "clip_178_k1i2",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 36
+   },
+   {
+    "id": "clip_179_ataa",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 38
+   },
+   {
+    "id": "clip_180_g2ju",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 38
+   },
+   {
+    "id": "clip_181_e1n5",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 40
+   },
+   {
+    "id": "clip_182_19aq",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 40
+   },
+   {
+    "id": "clip_183_9dlu",
+    "patternId": "pat_110_4n0j",
+    "track": 0,
+    "bar": 42
+   },
+   {
+    "id": "clip_184_e0g1",
+    "patternId": "pat_112_iaq0",
+    "track": 2,
+    "bar": 42
+   },
+   {
+    "id": "clip_185_111t",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 36
+   },
+   {
+    "id": "clip_186_s6",
+    "patternId": "pat_118_532h",
+    "track": 3,
+    "bar": 40
+   }
+  ]
+ },
+ "markers": [
+  {
+   "bar": 0,
+   "label": "INTRO"
+  },
+  {
+   "bar": 8,
+   "label": "BUILD"
+  },
+  {
+   "bar": 16,
+   "label": "DROP"
+  },
+  {
+   "bar": 32,
+   "label": "BREAK"
+  },
+  {
+   "bar": 36,
+   "label": "DROP 2"
+  },
+  {
+   "bar": 44,
+   "label": "OUT"
+  }
+ ]
+}
